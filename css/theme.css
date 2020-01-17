@@ -1,0 +1,15 @@
+:root {
+  --color-primary: ;
+  --color-primary-light: ;
+  --color-secondary: ;
+  --color-accent: ;
+  --color-neutral: ;
+  --color-whatever: ;
+
+  --font-primary: ;
+  --font-secondary: ;
+}
+
+html {
+  font-family: var(--font-primary);
+}
