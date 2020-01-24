@@ -4,10 +4,9 @@ theme: jekyll_patternbot
 patternbot:
   title: "VetSelect"
   description: VetSelect is a scheduling application for pet owners to easily book appointments with the specific veterinarian office of their choice. Using the app they will be able to view the available hours of the specific veterinarian office they want to book an appointment with. This will be an easy and effective way for pet owners who want to quickly view the hours that are available and plan their visit around those hours that they offer.
-.
   font_url: "https://use.typekit.net/nwe7xwy.css"
   colors:
-    background: "--color-secondary"
+    background: ""
     patterns:
       brand.logos: "--color-secondary"
   rationales:
@@ -17,5 +16,3 @@ patternbot:
       The primary colour is a .
     colors.secondary: |
       The secondary colour
-
-<link rel="stylesheet" href="https://use.typekit.net/nwe7xwy.css">
