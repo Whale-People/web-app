@@ -1,0 +1,11 @@
+input {
+  border-radius: 50px;
+  border-color: var(--color-secondary);
+  border-width: thin;
+  color: var(--color-primary-light);
+  opacity: 75%;
+}
+
+label {
+  color: var(--color-primary-light);
+}
