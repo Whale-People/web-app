@@ -1,13 +1,11 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: ;
-  --color-secondary: ;
-  --color-accent: ;
+  --color-primary: #FEBA86;
+  --color-primary-light: #FFFFFF;
+  --color-secondary: #BC5890;
+  --color-accent: #D18BCB;
   --color-neutral: ;
-  --color-whatever: ;
 
-  --font-primary: ;
-  --font-secondary: ;
+  --font-primary: "Basic Sans", sans-serif;
 }
 
 html {
