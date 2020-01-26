@@ -1,5 +1,5 @@
-input {
-  border-radius: 50px;
+input, textarea {
+  border-radius: 20px;
   border-color: var(--color-secondary);
   border-width: thin;
   color: var(--color-primary-light);
@@ -8,4 +8,14 @@ input {
 
 label {
   color: var(--color-primary-light);
+}
+
+.form-item {
+  height: 30px;
+  color: var(--color-neutral);
+}
+
+section {
+  background-color: rgb(188,88,144,0.2);
+
 }
