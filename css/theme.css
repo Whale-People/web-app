@@ -11,3 +11,7 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1, h3 {
+  color: var(--color-primary-light);
+}

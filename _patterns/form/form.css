@@ -17,5 +17,12 @@ label {
 
 section {
   background-color: rgb(188,88,144,0.2);
+}
 
+fieldset {
+  border: 0;
+}
+
+legend {
+  color: var(--color-primary-light);
 }
