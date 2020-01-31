@@ -3,17 +3,17 @@ description: |
   Buttons should be used in situations where a dramatic, obvious action is required. Try not to overuse buttons because they should be the primary call-to-action for a screen.
 
 patterns:
-  next-button:
+  basic-button:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     background: "--color-secondary"
-  next-button:
+  time-btn:
     title: "Time"
     description: |
       This button is used to select the time of an appointment within the calendar.
     background: "--color-secondary"
-  back-button:
+  back-btn:
     title: "Back"
     description: |
       This icon allows users to nagivate backwards.
