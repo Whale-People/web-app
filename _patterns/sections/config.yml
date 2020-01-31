@@ -1,0 +1,9 @@
+title: "Sections"
+description: |
+  Sections are used throughout the web app to divide sections of different information.
+
+patterns:
+  appointment-details:
+    title: "Appointment Details Section"
+    description: |
+      This section will be all of the details when an appointment is booked.
