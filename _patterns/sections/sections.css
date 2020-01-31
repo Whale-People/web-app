@@ -1,0 +1,11 @@
+section {
+  background-color: var(--color-accent);
+}
+
+.container {
+  color: var(--color-primary-light);
+}
+
+.edit {
+  text-align: right;
+}
