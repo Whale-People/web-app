@@ -14,4 +14,10 @@ html {
 
 h1, h3 {
   color: var(--color-primary-light);
+
+.btn {
+  border-width: 2px;
+  color: var(--color-accent);
+  text-decoration: none;
+  padding: 1em;
 }
