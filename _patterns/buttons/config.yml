@@ -8,3 +8,13 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     background: "--color-secondary"
+  next-button:
+    title: "Time"
+    description: |
+      This button is used to select the time of an appointment within the calendar.
+    background: "--color-secondary"
+  back-button:
+    title: "Back"
+    description: |
+      This icon allows users to nagivate backwards.
+    background: "--color-secondary"

@@ -20,7 +20,6 @@ i {
   border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 6px;
-  border-radius: 4px;
 }
 
 .left {
@@ -33,6 +32,5 @@ i:hover {
   border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 6px;
-  border-radius: 4px;
   transition: all 0.4s ease 0s;
 }
