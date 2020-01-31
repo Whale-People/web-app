@@ -1,0 +1,25 @@
+.calender {
+  max-width: 25em;
+  background-color: rgb(188,88,144,0.2);
+  border-radius: 10px;
+}
+
+.day {
+  border-bottom: 3px solid var(--color-primary-light);
+  color: var(--color-primary-light);
+}
+
+h2 {
+  color: var(--color-primary-light);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-light);
+  transition: all 200ms linear;
+}
+
+a:hover {
+  background-color: var(--color-secondary);
+  border-radius: 70px;
+}

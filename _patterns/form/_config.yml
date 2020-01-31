@@ -1,0 +1,13 @@
+title: "Forms"
+description: |
+  Forms are used throughout the web app for input by the user. Personal details, pet details, and appointment details will be inputted into the form for submission.
+
+patterns:
+  apt-details-form:
+    title: "Appointment Details Form"
+    description: |
+      This form is used when the user selects a date and time from the home page.
+    fields:
+      - name: title
+        type: string
+        example: "Branding & Logo Design"
