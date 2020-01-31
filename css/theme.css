@@ -11,3 +11,10 @@
 html {
   font-family: var(--font-primary);
 }
+
+.btn {
+  border-width: 2px;
+  color: var(--color-accent);
+  text-decoration: none;
+  padding: 1em;
+}
