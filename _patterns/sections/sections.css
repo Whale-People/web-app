@@ -1,4 +1,4 @@
-section {
+.section {
   background-color: var(--color-accent);
 }
 
@@ -8,4 +8,5 @@ section {
 
 .edit {
   text-align: right;
+  color: var(--color-secondary);
 }
