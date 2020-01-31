@@ -1,6 +1,36 @@
-.btn {
-  border-width: 2px;
-  color: var(--color-accent);
+.basic-btn, .time-btn {
+  background-color: #eb87ba;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5em;
+  border: 0px;
+  border-radius: 15px;
   text-decoration: none;
-  padding: 1em;
+  box-shadow: 0px 1px 6px rgba(110, 110, 110, 0.4);
+}
+
+.basic-btn:hover, .time-btn:hover {
+  background-color: #ca4f92;
+  border-radius: 15px;
+  transition: all 0.4s ease 0s;
+}
+
+i {
+  border: solid #fff;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+i:hover {
+  border: solid #ca4f92;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 6px;
+  transition: all 0.4s ease 0s;
 }
