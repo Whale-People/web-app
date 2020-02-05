@@ -7,3 +7,7 @@ patterns:
     title: "Appointment Details Section"
     description: |
       This section will be all of the details when an appointment is booked.
+  h1:
+    title: "Header for Pages"
+    description: |
+      This section will be on all pages and is the major header.

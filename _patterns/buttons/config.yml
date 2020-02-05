@@ -8,13 +8,31 @@ patterns:
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
     background: "--color-secondary"
+    fields:
+    - name: nav
+      type: string
+      example: "Next"
+    - name: url
+      type: url
+      example: "/insert-link/"
   time-btn:
     title: "Time"
     description: |
       This button is used to select the time of an appointment within the calendar.
     background: "--color-secondary"
+    fields:
+      - name: time
+        type: string
+        example: "4PM"
+      - name: url
+        type: url
+        example: "/insert-link/"
   back-btn:
     title: "Back"
     description: |
       This icon allows users to nagivate backwards.
     background: "--color-secondary"
+    fields:
+      - name: url
+        type: url
+        example: "/insert-link/"
