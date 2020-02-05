@@ -10,3 +10,28 @@
   text-align: right;
   color: var(--color-secondary);
 }
+
+i {
+  border-width: 0;
+  border-color: none;
+}
+
+.label-date {
+  color: var(--color-primary-light);
+}
+
+.apt-link {
+  transition: all 0.4s ease 0s;
+}
+
+.apt-link:hover p {
+  color: var(--color-secondary);
+}
+
+.apt-link:hover h3 {
+  color: var(--color-accent);
+}
+
+.apt-link:hover svg {
+  fill: var(--color-primary);
+}

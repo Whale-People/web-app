@@ -15,7 +15,7 @@
   transition: all 0.4s ease 0s;
 }
 
-i {
+.arrow {
   border: solid #fff;
   border-width: 0 5px 5px 0;
   display: inline-block;
@@ -27,7 +27,7 @@ i {
   -webkit-transform: rotate(135deg);
 }
 
-i:hover {
+.arrow:hover {
   border: solid #ca4f92;
   border-width: 0 5px 5px 0;
   display: inline-block;

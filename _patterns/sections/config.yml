@@ -15,3 +15,17 @@ patterns:
       - name: title
         type: string
         example: "Select a day"
+  my-appointment:
+    title: "My appointment links"
+    description: |
+      This section will be on the My Appointments page to list off the users existing appointments.
+    fields:
+      - name: url
+        type: url
+        example: "/insert-link/"
+      - name: date
+        type: string
+        example: "Tuesday, January 12th"
+      - name: time
+        type: string
+        example: "08:00 AM"
