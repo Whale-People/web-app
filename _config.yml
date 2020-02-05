@@ -8,7 +8,6 @@ patternbot:
   colors:
     background: ""
     patterns:
-      brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
       Basic Sans was selected because it is a simple and clean looking sans-serif typeface. This typeface adds simplicity to the design, while also giving off a fun and friendly feel.

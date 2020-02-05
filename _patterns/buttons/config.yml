@@ -7,7 +7,6 @@ patterns:
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
-    background: "--color-secondary"
     fields:
     - name: nav
       type: string
@@ -19,7 +18,6 @@ patterns:
     title: "Time"
     description: |
       This button is used to select the time of an appointment within the calendar.
-    background: "--color-secondary"
     fields:
       - name: time
         type: string
@@ -31,7 +29,6 @@ patterns:
     title: "Back"
     description: |
       This icon allows users to nagivate backwards.
-    background: "--color-secondary"
     fields:
       - name: url
         type: url

@@ -1,5 +1,5 @@
 .basic-btn, .time-btn {
-  background-color: #eb87ba;
+  background-color: var(--color-secondary);
   color: #fff;
   font-size: 1rem;
   padding: .5em;
@@ -10,7 +10,7 @@
 }
 
 .basic-btn:hover, .time-btn:hover {
-  background-color: #ca4f92;
+  background-color: var(--color-accent);
   border-radius: 15px;
   transition: all 0.4s ease 0s;
 }

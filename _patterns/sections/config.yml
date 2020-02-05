@@ -11,3 +11,7 @@ patterns:
     title: "Header for Pages"
     description: |
       This section will be on all pages and is the major header.
+    fields:
+      - name: title
+        type: string
+        example: "Select a day"
