@@ -1,0 +1,13 @@
+title: "Navigations"
+description: |
+  Navigations are used to get from different pages of the website.
+
+patterns:
+  top-nav:
+    title: "Top Navigation"
+    description: |
+      This navigation will be used for larger screens only at the top of every page.
+  vertical-nav:
+    title: "Vertical Navigation"
+    description: |
+      This navigation will be used for small screens only at the bottom of the homepage.
