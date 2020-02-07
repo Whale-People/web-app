@@ -6,3 +6,9 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.bg-gradient {
+  background-image: linear-gradient(to bottom, var(--color-primary), var(--color-accent));
+  background-repeat: no-repeat;
+  height: 100%;
+}

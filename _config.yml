@@ -17,3 +17,6 @@ patternbot:
       The secondary colour is a darker pink colour that will be used for buttons.
     colors.accent: |
       The accent colour will be used throughout for hovers and for accenting certain elements of the website.
+  layouts:
+    default: |
+      This default layout will be used for every page. It includes the header, footer, and background colour.
