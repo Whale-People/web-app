@@ -8,7 +8,11 @@
 
 .edit {
   text-align: right;
+}
+
+.edit:hover {
   color: var(--color-secondary);
+  transition: all 0.4s ease 0s;
 }
 
 i {
