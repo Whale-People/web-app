@@ -7,3 +7,25 @@ patterns:
     title: "Appointment Details Section"
     description: |
       This section will be all of the details when an appointment is booked.
+  h1:
+    title: "Header for Pages"
+    description: |
+      This section will be on all pages and is the major header.
+    fields:
+      - name: title
+        type: string
+        example: "Select a day"
+  my-appointment:
+    title: "My appointment links"
+    description: |
+      This section will be on the My Appointments page to list off the users existing appointments.
+    fields:
+      - name: url
+        type: url
+        example: "/insert-link/"
+      - name: date
+        type: string
+        example: "Tuesday, January 12th"
+      - name: time
+        type: string
+        example: "08:00 AM"

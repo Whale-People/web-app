@@ -8,11 +8,12 @@ patternbot:
   colors:
     background: ""
     patterns:
-      brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
       Basic Sans was selected because it is a simple and clean looking sans-serif typeface. This typeface adds simplicity to the design, while also giving off a fun and friendly feel.
     colors.primary: |
-      The primary colour is a .
+      The primary colour is a a friendly orange that will be used as a gradient colour on the background of each page.
     colors.secondary: |
-      The secondary colour
+      The secondary colour is a darker pink colour that will be used for buttons.
+    colors.accent: |
+      The accent colour will be used throughout for hovers and for accenting certain elements of the website.

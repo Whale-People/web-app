@@ -1,5 +1,5 @@
 .basic-btn, .time-btn {
-  background-color: #eb87ba;
+  background-color: var(--color-secondary);
   color: #fff;
   font-size: 1rem;
   padding: .5em;
@@ -10,12 +10,12 @@
 }
 
 .basic-btn:hover, .time-btn:hover {
-  background-color: #ca4f92;
+  background-color: var(--color-accent);
   border-radius: 15px;
   transition: all 0.4s ease 0s;
 }
 
-i {
+.arrow {
   border: solid #fff;
   border-width: 0 5px 5px 0;
   display: inline-block;
@@ -27,7 +27,7 @@ i {
   -webkit-transform: rotate(135deg);
 }
 
-i:hover {
+.arrow:hover {
   border: solid #ca4f92;
   border-width: 0 5px 5px 0;
   display: inline-block;

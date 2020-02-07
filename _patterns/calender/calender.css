@@ -1,5 +1,5 @@
 .calender {
-  max-width: 25em;
+  max-width: 35em;
   background-color: rgb(188,88,144,0.2);
   border-radius: 10px;
 }
@@ -13,13 +13,13 @@ h2 {
   color: var(--color-primary-light);
 }
 
-a {
+.day-link {
   text-decoration: none;
   color: var(--color-primary-light);
   transition: all 200ms linear;
 }
 
-a:hover {
+.day-link:hover {
   background-color: var(--color-secondary);
   border-radius: 70px;
 }
