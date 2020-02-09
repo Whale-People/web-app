@@ -36,7 +36,9 @@
           <label class="mega push-1-4" for="comments" class="mega push-1-4">Reason for appointment</label>
           <textarea class="form-item milli" id="comments" name="comments"></textarea>
         </div>
-        <button class="unit" type="submit">Submit</button>
+        <div class="unit">
+          {% pattern buttons/basic-button nav="Submit" url="/insert-link/" %}
+        </div>
       </div>
     </fieldset>
   </form>
