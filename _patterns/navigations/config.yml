@@ -1,0 +1,23 @@
+title: "Navigations"
+description: |
+  Navigations are used to get from different pages of the website.
+
+patterns:
+  top-nav:
+    title: "Top Navigation"
+    description: |
+      This navigation will be used for larger screens only at the top of every page.
+    fields:
+    - name: url-1
+      type: url
+      example: "/insert-link/"
+    - name: url-2
+      type: url
+      example: "/insert-link/"
+    - name: url-3
+      type: url
+      example: "/insert-link/"
+  vertical-nav:
+    title: "Vertical Navigation"
+    description: |
+      This navigation will be used for small screens only at the bottom of the homepage.
