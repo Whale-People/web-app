@@ -21,3 +21,13 @@ patterns:
     title: "Vertical Navigation"
     description: |
       This navigation will be used for small screens only at the bottom of the homepage.
+    fields:
+    - name: url-1
+      type: url
+      example: "/insert-link/"
+    - name: url-2
+      type: url
+      example: "/insert-link/"
+    - name: url-3
+      type: url
+      example: "/insert-link/"

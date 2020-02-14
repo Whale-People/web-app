@@ -12,3 +12,23 @@
   background-repeat: no-repeat;
   height: 100%;
 }
+
+.top-nav {
+  display: none;
+}
+
+.vertical-nav {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .top-nav {
+    display: block;
+  }
+
+  .vertical-nav {
+    display: none;
+  }
+
+}
