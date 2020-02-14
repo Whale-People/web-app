@@ -7,18 +7,20 @@
   <link href="/css/main.css" rel="stylesheet">
   <link href="https://use.typekit.net/nwe7xwy.css" rel="stylesheet">
 </head>
-<body class="bg-gradient">
-  <div class="grid pad-t-1-2">
-    <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 text-center">
-      {% pattern navigations/logo-nav %}
+<body>
+  <main class="bg-gradient">
+    <div class="grid pad-t-1-2">
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 text-center">
+        {% pattern navigations/logo-nav %}
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 vertical-nav pad-t push-0 text-center">
+        {% pattern navigations/vertical-nav url-1="/insert-link/" url-2="/insert-link/" url-3="/insert-link/" %}
+      </div>
+      <div class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4 pad-t-1-2 top-nav">
+        {% pattern navigations/top-nav url-1="/insert-link/" url-2="/insert-link/" url-3="/insert-link/" %}
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1 vertical-nav pad-t push-0 text-center">
-      {% pattern navigations/vertical-nav url-1="/insert-link/" url-2="/insert-link/" url-3="/insert-link/" %}
-    </div>
-    <div class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4 pad-t-1-2 top-nav">
-      {% pattern navigations/top-nav url-1="/insert-link/" url-2="/insert-link/" url-3="/insert-link/" %}
-    </div>
-  </div>
-  {{content}}
+    {{content}}
+  </main>
 </body>
 </html>
