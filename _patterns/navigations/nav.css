@@ -6,3 +6,20 @@ ul li a {
   text-decoration: none;
   color: var(--color-primary-light);
 }
+
+.nav-item {
+ transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  color: var(--color-secondary);
+}
+
+.logo-nav {
+  transition: all 0.2s ease;
+}
+
+.logo-nav:hover {
+  transform: scale(1.1);
+}
