@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="whole-container bg-gradient">
+  <div class="header">
+    <div class="back-button">
+      {% pattern buttons/back-btn url="/insert-link/" %}
+    </div>
+    <div class="navigation">
+      {% pattern navigations/top-nav url-1="/insert-link/" url-2="/insert-link/" url-3="/insert-link/" %}
+    </div>
+    <div class="text-center">
+      {% pattern sections/h1 title="Appointments" %}
+    </div>
+  </div>
+  <div class="appointments">
+    <div class="first">
+      {% pattern sections/my-appointment url="/insert-link/" date="Tuesday, January 12th" time="08:00 AM" %}
+      <hr class="gutter"></hr>
+    </div>
+    <div class="first">
+      {% pattern sections/my-appointment url="/insert-link/" date="Monday, February 11th" time="13:00 PM" %}
+      <hr class="gutter"></hr>
+    </div>
+    <div class="first">
+      {% pattern sections/my-appointment url="/insert-link/" date="Wednesday, March 25th" time="11:00 AM" %}
+    </div>
+</div>
