@@ -34,3 +34,6 @@
   padding: 6px;
   transition: all 0.4s ease 0s;
 }
+.btn-active {
+  background-color: var(--color-primary);
+}

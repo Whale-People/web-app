@@ -28,6 +28,6 @@ a.day-link:hover {
   background-color: var(--color-secondary);
 }
 
-a.day-link:focus {
+.day-link-active {
   background-color: var(--color-primary);
 }
