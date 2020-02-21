@@ -12,9 +12,14 @@ layout: default
     </div>
   </div>
   <div class="appointments text-center pad-t grid relative">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+      <i class="icon i-128 push-2">
+        <svg><use xlink:href="/images/icons.svg#frog-icon"></use></svg>
+      </i>
+    </div>
     <div class="first unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-2">
       <div class="push-0">
-        {% pattern sections/my-appointment url="/insert-link/" date="Tuesday, January 12th" time="08:00 AM" %}
+        {% pattern sections/my-appointment url="/appointmentdetails/" date="Tuesday, January 12th" time="08:00 AM" %}
       </div>
       <div class="gutter-2 bar">
         <hr></hr>
@@ -22,13 +27,13 @@ layout: default
     </div>
     <div class="pin-c vertical-line" style="border-left:3px solid #fff;height:400px"></div>
     <div class="second unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-2">
-      {% pattern sections/my-appointment url="/insert-link/" date="Monday, February 11th" time="13:00 PM" %}
+      {% pattern sections/my-appointment url="/appointmentdetails/" date="Monday, February 11th" time="13:00 PM" %}
       <div class="gutter-2">
         <hr></hr>
       </div>
     </div>
     <div class="third unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-2">
-      {% pattern sections/my-appointment url="/insert-link/" date="Wednesday, March 25th" time="11:00 AM" %}
+      {% pattern sections/my-appointment url="/appointmentdetails/" date="Wednesday, March 25th" time="11:00 AM" %}
     </div>
   </div>
 </div>
