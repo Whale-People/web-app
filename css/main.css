@@ -29,6 +29,21 @@ html {
   fill: var(--color-primary);
 }
 
+.third {
+  margin-bottom: 4.75em;
+}
+
+hr {
+  height: 3px;
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
+  border: none;
+}
+
+.vertical-line {
+  display: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .top-nav {
@@ -37,6 +52,24 @@ html {
 
   .vertical-nav {
     display: none;
+  }
+
+  .appointments {
+    background-image: linear-gradient(to bottom, var(--color-primary), var(--color-accent));
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .third {
+    margin-bottom: 11.75em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .vertical-line {
+    display: block;
   }
 
 }
